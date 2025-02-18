@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol Manked | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .preview-box {
+            display: none;
+            position: absolute;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Anmol Manked</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+        <h2 class="text-4xl font-bold">Hi, I'm Anmol Manked</h2>
+        <p class="text-lg text-gray-600 mt-2"> IT Student | Fashion Model</p>
+        <a href="#contact" class="mt-4 inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600">Hire Me</a>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="max-w-4xl mx-auto p-8">
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-700">A 3rd-year IT student with a passion for technology and problem-solving.
+Actively learning IT principles such as programming and web development
+to develop effective solutions</p>
+    </section>
+    
+    <!-- Education and Projects Section -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-8">
+           <h2 class="text-3xl font-bold mb-6">Education</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- Education Section -->
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50">
+                    <h3 class="text-xl font-semibold">Bachelor of Information Technology</h3>
+                    <p class="text-gray-600">B.Tech in Information Technology,<br>Silver Oak University, Ahmedabad, Gujarat</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50">
+                    <h3 class="text-xl font-semibold">Expected Graduation Year: 2026</h3>
+                    <p class="text-gray-600">Current CGPA: 8.1</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Work Section -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-8">
+           <h2 class="text-3xl font-bold mb-6">Work</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50 relative group">
+                    <h3 class="text-xl font-semibold">Automation Bots</h3>
+                    <p class="text-gray-600">Custom automation scripts for games and tasks.</p>
+                    <div class="preview-box group-hover:block">Preview of Automation Bots</div>
+                </div>
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50 relative group">
+                    <h3 class="text-xl font-semibold">Portfolio Website</h3>
+                    <p class="text-gray-600">A stylish and responsive portfolio site built with Tailwind.</p>
+                    <div class="preview-box group-hover:block">Preview of Portfolio Website</div>
+                </div>
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50 relative group">
+                    <h3 class="text-xl font-semibold">ReactJS Website</h3>
+                    <p class="text-gray-600">A stylish and responsive portfolio site built with ReactJS.</p>
+                    <div class="preview-box group-hover:block">Preview of ReactJS Website</div>
+                </div>
+                <div class="p-6 border rounded-lg shadow-md bg-gray-50 relative group">
+                    <h3 class="text-xl font-semibold">Fashion Model</h3>
+                    <p class="text-gray-600">A stylish and responsive portfolio site built with Tailwind.</p>
+                    <div class="preview-box group-hover:block">Preview of Fashion Model Work</div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <!-- Contact Section -->
+    <section id="contact" class="text-center py-16">
+        <h2 class="text-3xl font-bold">Contact Me</h2>
+        <p class="text-gray-700">Let's connect and work together.</p>
+        <a href="mailto:anmol@example.com" class="mt-4 inline-block bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-600">Email Me</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2025 Anmol Manked. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
